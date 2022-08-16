@@ -44,5 +44,4 @@ public class Empleado {
 		return "Empleado [id=" + id + ", nombre=" + nombre + ", edad=" + edad + "]";
 	}
 	
-	
 }
