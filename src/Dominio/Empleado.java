@@ -39,6 +39,9 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
-	
+		@Override
+	public String toString() {
+		return "Empleado [id=" + id + ", nombre=" + nombre + ", edad=" + edad + "]";
+	}
 	
 }
