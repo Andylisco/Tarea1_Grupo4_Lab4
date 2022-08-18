@@ -39,9 +39,16 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
-		@Override
+	@Override
 	public String toString() {
 		return "Empleado [id=" + id + ", nombre=" + nombre + ", edad=" + edad + "]";
 	}
 	
+	
+	public static int DevuelveProximoID() {
+		//la clase devolvera el proximo ID
+		return idIni+1;
+	}
+	
 }
+

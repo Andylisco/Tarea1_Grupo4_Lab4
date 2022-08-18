@@ -1,9 +1,11 @@
 package Dominio;
 
+//import java.util.Iterator;
+
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
        Empleado[]  empleados = new Empleado[5];
        
        empleados[0]= new Empleado();
@@ -16,7 +18,7 @@ public class Principal {
        for (Empleado empleado : empleados) {
 		System.out.println(empleado.toString());
 	}
-
+       System.out.println("Próximo ID de Empleado: " + Empleado.DevuelveProximoID());
 	}
 
 }
